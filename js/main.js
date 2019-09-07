@@ -69,13 +69,12 @@ jQuery(document).ready(function($) {
 
 
 
-        $(".pop-button").click(function () {
-            $(".pop").fadeIn(300);
-            
+        $(".pop-button").click(function (ajaxCall1) {
+       //     $(".pop").fadeIn(300);            
         });
 
         $(".pop > span").click(function () {
-            $(".pop").fadeOut(300);
+    //        $(".pop").fadeOut(300);
         });
 
 
